@@ -1,0 +1,40 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x18\x00T\x00e\x00s\x00t\x00P\x00r\x00o\x00j\x00e\x00c\x00t\x001)
+
+[CMake]
+BuildDirs=/home/jack/C++Project/TestProject1/build
+CMakeDir=/usr/share/cmake-2.8/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/jack/C++Project/TestProject1/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 0
+
+[Launch][Launch Configuration 0]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=New Native Application Configuration
+Type=Native Application
+
+[Launch][Launch Configuration 0][Data]
+Arguments=
+Debugger Shell=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x00)
+Dependency Action=Nothing
+Display Demangle Names=true
+Display Static Members=false
+EnvironmentGroup=default
+Executable=
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+GDB Path=
+Project Target=TestProject1,testproject1
+Remote GDB Config Script=
+Remote GDB Run Script=
+Remote GDB Shell Script=
+Use External Terminal=false
+Working Directory=file:///home/jack/C++Project/TestProject1
+isExecutable=false
